@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(1, 1, 12);
+  color: white;
+}
+
+/* navbar styling  begining*/
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  margin-top: 12px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  padding: 18px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+li a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+
+}
+
+a:hover{
+  border-bottom: 1px solid rgb(70, 115, 143);
+  border-top: 1.5px solid yellow;
+}
+
+span{
+  color: rgb(199, 181, 16);
+}
+
+span:hover{
+  color: orangered;
+}
+/* navbar styling ending */
+
+
+
+/* heading styling begining */
+
+.about{
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+img{
+  max-width: 650px;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+
+.writ-up1{
+max-width: 750px;
+}
+
+.writ-up1 p{
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.8rem;
+
+}
+
+.me{
+  font-size: 2.5rem;
+ text-align: center;
+ display:block;
+}
+
+.me span{
+  font-weight: bold;
+  cursor: pointer;
+ 
+}
+/* heading styling end */
